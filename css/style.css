@@ -1,0 +1,16 @@
+header, h1 {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    margin: 0px 0px;
+}
+
+h2, p {
+text-align: center;
+}
+
+@media (min-width:768px) {
+
+
+
+}
