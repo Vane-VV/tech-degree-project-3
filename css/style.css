@@ -25,6 +25,13 @@ body {
 
 label {
     color: gray;
+    ;
+}
+
+input, select {
+    padding: 10px 15px;
+    text-align: right;
+    margin: 8px 0px;
 }
 
 hr {
@@ -56,7 +63,13 @@ body {
 }
 
 fieldset {
-    text-decoration: none;
+    margin: 0px 0px;
+    border: 5px;
+    padding: 15px;
+}
+
+.container {
+    font-size: 18px;
 }
 
 @media (min-width:768px) {
