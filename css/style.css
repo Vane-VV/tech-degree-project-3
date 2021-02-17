@@ -1,12 +1,43 @@
 header, h1 {
-    background-color: darkblue;
+    background-color: rgb(42, 54, 71);
     color: white;
     text-align: center;
     margin: 0px 0px;
+    padding: 10px 0px;
 }
 
 h2, p {
 text-align: center;
+}
+
+p {
+    color: gray;
+}
+
+body {
+    background-color: rgb(243, 243, 243);
+}
+
+label {
+    color: gray;
+}
+
+hr {
+margin: 20px 0px;
+}
+
+button {
+    background-color: rgb(34, 167, 167);
+    color: white;
+    padding: 15px 135px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+input, textarea, select {
+    border: 0px;
+    background-color: rgb(224, 223, 223);
+    color:rgb(145, 145, 145)
 }
 
 @media (min-width:768px) {
