@@ -16,11 +16,11 @@ h2 {
     font-size: 19px;
 }
 
-h2, p {
+h2, .desc {
 text-align: center;
 }
 
-p {
+.desc {
     color: gray;
     font-size: 16px;
     padding-bottom: 15px;
@@ -55,7 +55,7 @@ button {
     width: 90%;
     display: block;
     margin: auto;
-    margin-top: 25px;
+    margin-top: 10px;
     margin-bottom: 25px;
     font-size: 20px;
 }
@@ -77,7 +77,7 @@ fieldset {
 }
 
 .container {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .contact-information input, .contact-information label{
@@ -93,8 +93,53 @@ fieldset {
     margin-right: 25px;
 }
 
+textarea {
+    height: 7em;
+    margin-top: 15px;
+}
+
+.info {
+   padding: 0px; 
+   margin-bottom: 8px;
+   margin-top: 12px;
+   text-align: left;
+}
+
+.copyright{
+    margin-bottom: 8em;
+    text-align: center;
+}
+
+#zip_code {
+    width: 40%;
+}
+
+#state {
+    width:100%;
+}
+
+p {
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+
 @media (min-width:768px) {  
 
 
 
+
+    
+/*
+body {
+    margin:0em 10em;
+}
+
+h2 {
+    margin-top: 2em;
+}
+
+header {
+    margin: 0px;
+}
 }
