@@ -123,23 +123,41 @@ p {
     margin-bottom: 0px;
 }
 
+input:focus, textarea:focus {
+border-color:cadetblue;
+}
 
 @media (min-width:768px) {  
 
-
-
-
-    
-/*
-body {
-    margin:0em 10em;
+.contact-information > div {
+    display: flex;
+    justify-content: space-between;
 }
 
-h2 {
-    margin-top: 2em;
+body > hr, .container {
+    width:60%;
+    margin:auto;
 }
 
-header {
-    margin: 0px;
+.contact-information {
+    margin-top: 20px;
+    padding: 15px 0px;
 }
+ 
+.contact-information input, select {
+    width:70% ;
+    }
+}
+
+#zip_code {
+    width: 25%;
+    margin-right: 45%;
+}
+
+#state {
+    width: 76%;
+}
+
+.contact-information label {
+    margin-top: 18px;
 }
